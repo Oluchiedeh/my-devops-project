@@ -93,7 +93,7 @@ resource "azurerm_linux_virtual_machine" "vm" {
   size                = "Standard_B2ats_v2"   # ✅ Updated size
 
   admin_username = "azureuser"
-  admin_password = "Immediately2026"  # ⚠️ Replace this
+  admin_password = "Password1234%"  # ⚠️ Replace this
 
   disable_password_authentication = false
 
